@@ -21,4 +21,6 @@ vim.cmd("inoremap [ []<Esc>ha")
 vim.cmd("inoremap \" \"\"<Esc>ha")
 vim.cmd("inoremap \' \'\'<Esc>ha")
 vim.cmd("inoremap ` ``<Esc>ha")
-
+vim.cmd("set listchars=tab:>·,trail:~,extends:>,precedes:<,space:·")
+-- vim.cmd("set listchars=tab:→\\ ,trail:·,eol:¬,extends:…,precedes:…")
+vim.cmd("set list")
